@@ -1,5 +1,6 @@
 import os
-from flask import Flask
+from flask import Flask, render_template
+
 if os.path.exists("env.py"):
     import env
 
@@ -7,11 +8,11 @@ if os.path.exists("env.py"):
     app = Flask(__name__)
 
     @app.route("/")
+    @app.route("/hello")
     def hello():
-        return "Hello World ...again!"
+        return render_template("index.html")
 
 
         if __name__ == "__main__":
             app.run(host=os.environ.get("IP"),
-            port=int(os.environ.get("PORT")),
-            debug=True)
+                port=int(os.environ.get("PORT")), debug=True)
