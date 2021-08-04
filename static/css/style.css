@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body1{
+    
+    text-align: center;
+
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding-top:5%
+}
+
+.imglot1{
+    width:100%;
+    height: 100%;
+    position: center;
+    top: 100px;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position:center center ;
+}
+.banner-area{
+    padding-top:-8%;
+    font-size:70px;
+    text-transform: uppercase;
+    color:rgb(5, 3, 3);
+}
+.banner-area1{
+    margin-top:-100px;
+   
+    font-size:40px;
+    text-transform: uppercase;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 6px rgb(212, 212, 212);
+}
+
+
+/*Selecting Lot to park your car */
+
+
+
+
+
+/* nav */
+
+.text-shadow {
+   
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Loggin style*/
+
+.container{
+    color:rgb(27, 1, 27);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 40px;
+}
+.container{
+    transition: 0.5s;
+}
+.container:hover{
+    -webkit-box-shadow: 6px 5px 10px -2px rgba(34, 34, 34, 0.69); 
+    box-shadow: 6px 5px 10px -2px rgba(39, 39, 39, 0.69);
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+   
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form-group, .btn-block{
+    margin-top: 20px;
+}
+
+.flashes h4{
+    line-height: 2;
+}
+
+.carousel{
+    height:700px !important;
+}
+
+/*----------------------------*/
+.vehicleinfo{
+    width:80%;
+    color:rgb(27, 1, 27);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 40px;
+    background-color:#fff;
+}
+
